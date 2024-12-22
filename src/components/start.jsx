@@ -14,7 +14,7 @@ export default function start({setActiveView}){
                 </div>
                 <div className='content__container-start flex flex-col items-center p-2'>
                     <h2 className="text-2xl font-bold text-stone-800">No Project Selected</h2>
-                    <p className="text-stone-600 p-2">Select a project or get started with a new one</p>
+                    <p className="text-stone-600 p-2">SelectTest a project or get started with a new one</p>
                 </div>
                 <div className="button-create-project__container-start flex flex-col items-center p-2">
                     <button id='btnAdd' className="bg-slate-700 text-white p-4 rounded mx-px" onClick={() =>handleClickStart()}>Create new project</button>
